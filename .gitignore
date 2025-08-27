@@ -129,10 +129,8 @@ dmypy.json
 .pyre/
 
 # Project-specific files
-*.csv
-!examples/sample_input.csv
-!examples/sample_output.csv
-output/
+# Note: CSV files are now tracked for GitHub visibility
+# Only ignore temporary and log files
 temp/
 logs/
 *.log
