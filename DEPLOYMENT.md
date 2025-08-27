@@ -39,29 +39,19 @@ git push -u origin main
    - Make it Public or Private (your choice)
    - Don't initialize with README (we already have one)
 
-2. **Enable GitHub Actions:**
-   - Go to your repository → Settings → Actions → General
-   - Enable "Allow all actions and reusable workflows"
-   - Save the settings
-
-3. **Set up branch protection (optional):**
+2. **Set up branch protection (optional):**
    - Go to Settings → Branches
    - Add rule for `main` branch
-   - Enable "Require status checks to pass before merging"
    - Enable "Require branches to be up to date before merging"
 
 ### Step 3: Verify Deployment
 
 After pushing to GitHub:
 
-1. **Check GitHub Actions:**
-   - Go to your repository → Actions tab
-   - You should see the CI/CD pipeline running
-   - All tests should pass
-
-2. **Check repository structure:**
+1. **Check repository structure:**
    - Verify all files are uploaded correctly
    - Check that the README.md displays properly
+   - Ensure all directories and files are present
 
 ## 🏭 Production Deployment
 
@@ -370,24 +360,15 @@ def generate_report():
     return report
 ```
 
-## 🔄 Continuous Deployment
-
-### Automated Deployment Pipeline
-
-1. **Development → Staging → Production**
-2. **Automated testing at each stage**
-3. **Rollback capabilities**
-4. **Blue-green deployment**
+## 🔄 Manual Deployment
 
 ### Deployment Checklist
 
-- [ ] All tests pass
-- [ ] Security scan completed
-- [ ] Performance benchmarks met
+- [ ] All tests pass locally (`python tests/test_detector.py`)
+- [ ] Sample data processing works (`python detector_varikuti_Narendra_Reddy.py examples/sample_input.csv`)
 - [ ] Documentation updated
 - [ ] Backup procedures in place
 - [ ] Monitoring configured
-- [ ] Rollback plan ready
 
 ## 📞 Support and Maintenance
 

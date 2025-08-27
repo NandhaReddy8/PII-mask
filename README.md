@@ -147,13 +147,13 @@ pii-detection-tool/
 Run the test suite to verify functionality:
 
 ```bash
-python -m pytest tests/
+python tests/test_detector.py
 ```
 
-Or run individual tests:
+Or run the deployment script for comprehensive testing:
 
 ```bash
-python tests/test_detector.py
+python deploy.py
 ```
 
 ## 📈 Performance
