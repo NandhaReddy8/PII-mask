@@ -184,8 +184,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Varikuti Narendra Reddy**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@NandhaReddy8](https://github.com/NandhaReddy8)
+- Email: narendravarikuti.2003@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -197,7 +197,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support and questions:
 - Create an issue on GitHub
-- Email: support@example.com
+- Email: nandhareddy.05@gmail.com
 - Documentation: [Wiki](https://github.com/yourusername/pii-detection-tool/wiki)
 
 ---
