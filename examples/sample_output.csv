@@ -1,0 +1,11 @@
+record_id,redacted_data_json,is_pii
+1,"{""name"": ""JXXX DXX"", ""email"": ""jXXXe@example.com"", ""phone"": ""98XXXXXX10"", ""address"": ""[REDACTED_ADDRESS]""}",True
+2,"{""name"": ""Jane Smith"", ""aadhar"": ""XXXXXXXX9012"", ""passport"": ""AXXXXXX7"", ""upi_id"": ""[REDACTED_UPI]""}",True
+3,"{""name"": ""RXXXXX JXXXXXX"", ""email"": ""rXXXj@company.com"", ""phone"": ""87XXXXXX09"", ""ip_address"": ""[REDACTED_IDENTIFIER]""}",True
+4,"{""name"": ""AXXXX BXXXX"", ""aadhar"": ""XXXXXXXX1098"", ""device_id"": ""[REDACTED_IDENTIFIER]"", ""address"": ""[REDACTED_ADDRESS]""}",True
+5,"{""name"": ""MXXXXXX WXXXXX"", ""email"": ""mXXXw@test.org"", ""phone"": ""76XXXXXX98"", ""passport"": ""BXXXXXX3""}",True
+6,"{""name"": ""SXXXX DXXXX"", ""upi_id"": ""[REDACTED_UPI]"", ""address"": ""[REDACTED_ADDRESS]""}",True
+7,"{""name"": ""DXXXX MXXXXX"", ""email"": ""dXXXm@email.com"", ""phone"": ""65XXXXXX87"", ""aadhar"": ""XXXXXXXX2345""}",True
+8,"{""name"": ""LXXX AXXXXXXX"", ""passport"": ""C4567890"", ""device_id"": ""[REDACTED_IDENTIFIER]"", ""ip_address"": ""[REDACTED_IDENTIFIER]""}",True
+9,"{""name"": ""JXXXX TXXXXX"", ""email"": ""jXXXt@work.com"", ""address"": ""[REDACTED_ADDRESS]""}",True
+10,"{""name"": ""Emma White"", ""phone"": ""54XXXXXX76"", ""upi_id"": ""[REDACTED_UPI]"", ""aadhar"": ""XXXXXXXX4567""}",True

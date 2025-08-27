@@ -1,0 +1,23 @@
+# Core dependencies for PII Detection Tool
+# Python 3.7+ compatible
+
+# Standard library modules (no external dependencies required)
+# The tool uses only built-in Python modules:
+# - re (regex)
+# - json
+# - csv
+# - argparse
+# - typing
+
+# Optional: For enhanced development and testing
+pytest>=6.0.0
+pytest-cov>=2.10.0
+
+# Optional: For performance monitoring
+psutil>=5.8.0
+
+# Optional: For data validation (future enhancement)
+jsonschema>=3.2.0
+
+# Optional: For logging enhancements (future enhancement)
+colorlog>=6.6.0

@@ -1,0 +1,11 @@
+record_id,data_json
+1,"{""name"": ""John Doe"", ""email"": ""john.doe@example.com"", ""phone"": ""9876543210"", ""address"": ""123 Main Street, Bangalore, Karnataka""}"
+2,"{""name"": ""Jane Smith"", ""aadhar"": ""1234 5678 9012"", ""passport"": ""A1234567"", ""upi_id"": ""jane@upi""}"
+3,"{""name"": ""Robert Johnson"", ""email"": ""robert.j@company.com"", ""phone"": ""8765432109"", ""ip_address"": ""192.168.1.100""}"
+4,"{""name"": ""Alice Brown"", ""aadhar"": ""9876 5432 1098"", ""device_id"": ""DEVICE_001"", ""address"": ""456 Park Avenue, Mumbai, Maharashtra""}"
+5,"{""name"": ""Michael Wilson"", ""email"": ""michael.w@test.org"", ""phone"": ""7654321098"", ""passport"": ""B9876543""}"
+6,"{""name"": ""Sarah Davis"", ""upi_id"": ""sarah@paytm"", ""address"": ""789 Oak Road, Delhi, NCR""}"
+7,"{""name"": ""David Miller"", ""email"": ""david.m@email.com"", ""phone"": ""6543210987"", ""aadhar"": ""4567 8901 2345""}"
+8,"{""name"": ""Lisa Anderson"", ""passport"": ""C4567890"", ""device_id"": ""DEVICE_002"", ""ip_address"": ""10.0.0.50""}"
+9,"{""name"": ""James Taylor"", ""email"": ""james.t@work.com"", ""address"": ""321 Pine Street, Chennai, Tamil Nadu""}"
+10,"{""name"": ""Emma White"", ""phone"": ""5432109876"", ""upi_id"": ""emma@googlepay"", ""aadhar"": ""6789 0123 4567""}"
