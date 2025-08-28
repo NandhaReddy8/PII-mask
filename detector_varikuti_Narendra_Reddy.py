@@ -118,9 +118,33 @@ def main(input_file: str, output_file: str):
     try:
         with open(input_file, mode='r', encoding='utf-8') as infile:
             reader = csv.DictReader(infile)
+            
+            if not reader.fieldnames:
+                raise ValueError("CSV file is empty or has no headers")
+
+            # Validate CSV headers (case-insensitive)
+            headers = [header.lower() for header in reader.fieldnames]
+            required_fields = {'record_id', 'data_json'}
+            
+            if set(headers) != required_fields:
+                extra_fields = set(headers) - required_fields
+                missing_fields = required_fields - set(headers)
+                error_msg = []
+                
+                if extra_fields:
+                    error_msg.append(f"Unexpected fields found: {', '.join(extra_fields)}")
+                if missing_fields:
+                    error_msg.append(f"Missing required fields: {', '.join(missing_fields)}")
+                    
+                raise ValueError(f"Invalid CSV structure. {' '.join(error_msg)}")
+            
+            # Create a mapping of actual header names to their lowercase versions
+            header_mapping = {header.lower(): header for header in reader.fieldnames}
+            
             for row in reader:
-                record_id = row['record_id']
-                data_json_str = row['data_json']
+                # Get values using case-insensitive header mapping
+                record_id = row[header_mapping['record_id']]
+                data_json_str = row[header_mapping['data_json']]
 
                 try:
                     data = json.loads(data_json_str)
