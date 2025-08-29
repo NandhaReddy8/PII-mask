@@ -2,7 +2,27 @@
 
 A robust Python-based tool for detecting and redacting Personally Identifiable Information (PII) from CSV datasets. This tool implements both standalone and combinatorial PII detection algorithms to ensure comprehensive data privacy protection.
 
-## 🚀 Features
+## � Quick Setup & Deliverables
+
+### Key Files and Commands
+```bash
+# Clone Repository
+git clone https://github.com/yourusername/pii-detection-tool.git
+
+# Main Script
+detector_varikuti_Narendra_Reddy.py
+
+# Default Output File
+redacted_output_varikuti_narendra_reddy.csv
+
+# Run Command
+python detector_varikuti_Narendra_Reddy.py iscp_pii_dataset_-_Sheet1.csv
+
+# Deployment Strategy Document
+PII Masking Deployment.pdf
+```
+
+## �🚀 Features
 
 - **Standalone PII Detection**: Identifies individual PII elements like phone numbers, Aadhar numbers, passport numbers, and UPI IDs
 - **Combinatorial PII Detection**: Detects PII patterns when multiple identifiers appear together
