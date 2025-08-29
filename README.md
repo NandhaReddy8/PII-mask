@@ -209,7 +209,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Built for ISCP (Information Security and Cyber Protection) dataset processing
+- Built for ISCP (Info-Sec Certification Program) dataset processing
 - Implements industry-standard PII detection algorithms
 - Designed for production-ready data privacy compliance
 
